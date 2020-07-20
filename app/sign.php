@@ -1,6 +1,6 @@
 <?php
 	try {
-		$bdd = new PDO('mysql:host=localhost;dbname=espace_membre', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+		$bdd = new PDO('mysql://bc15657febe502:b9a2f96d@us-cdbr-east-02.cleardb.com/heroku_680327feb49fa0d?reconnect=true', 'bc15657febe502', 'b9a2f96d@us', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 	} catch (Exception $e) {
 		die('Erreur : ' . $e->getMessage());
     }

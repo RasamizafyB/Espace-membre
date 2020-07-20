@@ -18,3 +18,4 @@ $membre = array(
   array('id' => '18','pseudo' => 'bry','password' => '0c9d125b39f8a674cee51c774d4f144fc452ab31','email' => 'bry98@gmail.com'),
   array('id' => '19','pseudo' => 'bry98','password' => '86f7e437faa5a7fce15d1ddcb9eaeaea377667b8','email' => 'brybry98@gmail.com')
 );
+mysql://bc15657febe502:b9a2f96d@us-cdbr-east-02.cleardb.com/heroku_680327feb49fa0d?reconnect=true
