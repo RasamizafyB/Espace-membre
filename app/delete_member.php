@@ -11,5 +11,5 @@
     $delete->execute(array('num' => $_SESSION['id']));
     var_dump($_SESSION['id']);
 
-    header('Location: ../log.php');
+    header('Location: ../index.php');
 ?>

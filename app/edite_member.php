@@ -101,6 +101,6 @@
 
 <?php
     }else{
-        header("Location: log.php");
+        header("Location: ../index.php");
     }
 ?>

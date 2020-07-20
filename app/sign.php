@@ -107,7 +107,7 @@
     					</div>
     					<div class="form-group">
                             <input type="submit" value="Sign" name="formInscription" class="btn float-right login_btn">
-                            <a href="../log.php" class="btn float-right login_btn">Login</a>
+                            <a href="../index.php" class="btn float-right login_btn">Login</a>
     					</div>
                     </form>
     			</div>
