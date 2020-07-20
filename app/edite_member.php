@@ -6,6 +6,7 @@
 		die('Erreur : ' . $e->getMessage());
     }
     if(isset($_SESSION['id'])){
+        var_dump($_SESSION['id']);
         $requser = $bdd->prepare("SELECT * FROM membre WHERE id = ?");
         $requser->execute(array($_SESSION['id']));
         $useredit = $requser->fetch();
@@ -31,8 +32,8 @@
             }else{
                 $error = "Your PASSWORD doesn't match!";
             }
-        }else{
-            $error = "Complet PASSWORD!";
+        // }else{
+        //     $error = "Complet PASSWORD";
         }
 ?>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
