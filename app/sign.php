@@ -2,7 +2,7 @@
 	try {
         // mysql:host=eu-cdbr-east-02.cleardb.com;dbname=heroku_680327feb49fa0d;charset=utf8', 'bc15657febe502', 'b9a2f96d@us'
                         // mysql:host=eu-cdbr-west-03.cleardb.net;dbname=heroku_1e82a0b7ae70a0d;charset=utf8', "bf9399d9b323b2", "2bffc160",
-		$bdd = new PDO('mysql://bc15657febe502:b9a2f96d@us-cdbr-east-02.cleardb.com/heroku_680327feb49fa0d?reconnect=true', 'bc15657febe502', 'b9a2f96d', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+		$bdd = new PDO('mysql:host=eu-cdbr-east-02.cleardb.com;dbname=heroku_680327feb49fa0d;charset=utf8', 'bc15657febe502', 'b9a2f96d', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 	} catch (Exception $e) {
 		die('Erreur : ' . $e->getMessage());
     }
